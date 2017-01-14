@@ -1,0 +1,22 @@
+=============
+Chapter 7
+=============
+Q.7.1: How is a C program loaded into memory ?
+
+
+===========================================================================================================================================
+ Symbol table: a list of names/symbols and their corresponding offsets in the text and data segments.
+
+Object file disassembly sections :
+ .init - Startup
+ .text - String
+ .fini - Shutdown
+ .rodata - Read Only
+ .data - Initialized Data
+ .tdata - Initialized Thread Data
+ .tbss - Uninitialized Thread Data
+ .ctors - Constructors
+ .dtors - Destructors
+ .got - Global Offset Table
+ .bss - Uninitialized Data
+
